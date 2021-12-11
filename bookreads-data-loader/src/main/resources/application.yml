@@ -1,3 +1,9 @@
+spring.application.name: bookreads-data-loader
+
+datadump.location:
+  author: E:\Jayram Java Project\Spring Boot Applications\FullStack\One\bookreads-data-loader\src\main\resources\test-authors.txt
+  works: E:\Jayram Java Project\Spring Boot Applications\FullStack\One\bookreads-data-loader\src\main\resources\test-works.txt
+
 spring:
   data:
     cassandra:
