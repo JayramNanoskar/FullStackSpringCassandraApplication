@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BookreadsDataLoaderApplication<bookreads-data-loader>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.jayram.bookreadsdataloader.BookreadsDataLoaderApplication",
+            "projectName": "bookreads-data-loader",
+            "args": ""
+        }
+    ]
+}
