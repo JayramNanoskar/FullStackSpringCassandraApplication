@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BookReadsSpringSecurityGithubStarterApplication",
+            "request": "launch",
+            "mainClass": "com.jayram.springsecuritygithublogin.BookReadsSpringSecurityGithubStarterApplication",
+            "projectName": "bookreads-spring-security-github-starter"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-BookreadsDataLoaderApplication<bookreads-data-loader>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
