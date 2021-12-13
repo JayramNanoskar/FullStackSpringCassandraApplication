@@ -24,7 +24,7 @@ public class BookController {
             Book book = optionalBook.get();
             String coverImageUrl = "/images/no-image.png";
             if(book.getCoverIds() != null && book.getCoverIds().size()>0) {
-                coverImageUrl = COVER_IMAGE_ROOT +book.getCoverIds().get(0)+"-L.jpg";
+                coverImageUrl = COVER_IMAGE_ROOT +book.getCoverIds().get(0)+"-L.jpg"; //Creating url to leverage Covers API from OpenLibrary
             }
             model.addAttribute("coverImage", coverImageUrl);
             model.addAttribute("book", book);

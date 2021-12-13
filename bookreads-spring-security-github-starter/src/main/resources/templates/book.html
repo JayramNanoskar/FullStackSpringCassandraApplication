@@ -9,6 +9,15 @@
     <title>BookReads</title>
   </head>
 <body>
+  <div class="container">
+  <nav>
+    <div class="navbar navbar-expand-lg nvbar-light bg-light" style="padding-bottom: 20px">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">BookReads</a>
+        </div>
+    </div>
+  </nav>
+  <div th:insert="components/book-search :: search-panel"></div> <!-- Refering/Invoking Thymeleaf component  -->
   <section class="content">
     <div class="card">
         <div class="row g-0">
@@ -26,5 +35,6 @@
         </div>
     </div>
   </section>
+  </div>
 </body>
 </html>
