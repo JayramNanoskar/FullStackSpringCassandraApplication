@@ -2,6 +2,7 @@ package com.jayram.bookreads.search;
 
 import java.util.List;
 
+//Model to represent the structure of the search result returned by the Open Library API. 
 public class SearchResult {
     
     private int numFound;
